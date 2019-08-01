@@ -1,6 +1,6 @@
 
 <?php
-$bg = array("umbreon1.gif", "umbreon2.gif" ); // array of filenames
+$bg = array('umbreon1.gif', 'umbreon2.gif' ); // array of filenames
 
 $i = rand(0, count($bg)-1); // generate random number size of the array
 $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
@@ -21,7 +21,7 @@ $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chos
         
         body
         {
-        background: url(images/<?php echo $selectedBg; ?>) no-repeat;
+        background: url(<?php echo $selectedBg; ?) no-repeat;
         }
         
     </style>
