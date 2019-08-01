@@ -32,7 +32,7 @@ blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 
 
 
 body {
-    background-image:url("umbreon1.gif");
+    /*background-image:url("umbreon1.gif");*/
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;

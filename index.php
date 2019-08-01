@@ -1,3 +1,11 @@
+
+<?php
+$bg = array("umbreon1.gif", "umbreon2.gif" ); // array of filenames
+
+$i = rand(0, count($bg)-1); // generate random number size of the array
+$selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+?>
+
 <!DOCTYPE html>
 <!-- umbreon.org; hi it's brandon! how are u! -->
 <html>
@@ -7,6 +15,18 @@
     <link rel="icon" type="image/ico" href="pokeball2.ico">
     <link rel="stylesheet" href="styles.css">
     <title> UM </title>
+
+
+    <style type="text/css">
+        
+        body
+        {
+        background: url(images/<?php echo $selectedBg; ?>) no-repeat;
+        }
+        
+    </style>
+
+
 </head>
 
 
@@ -14,6 +34,7 @@
 <!-- <body bgcolor="#000000" text="#D7D7D7" link="#BBBBBB" vlink="#9F9F9F"> -->
 <body>
 
+    
     
     <div class="container">
 
