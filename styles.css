@@ -3,7 +3,7 @@ h1 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; color: white; font-
 
 
 body {
-    /*background-image:url("umbreon1.gif");*/
+    background-image:url("umbreon1.gif");
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
