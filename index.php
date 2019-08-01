@@ -34,18 +34,20 @@ $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chos
 <!-- <body bgcolor="#000000" text="#D7D7D7" link="#BBBBBB" vlink="#9F9F9F"> -->
 <body>
 
+<<<<<<< HEAD:index.php
     
     
     <div class="container">
+=======
+>>>>>>> parent of 91d9ac8... almost done:index.html
 
-        <h1><center>umbreon.org</center></h1>
+<h1><center>umbreon.org</center></h1>
 
-        <!-- <center><img src="umbreon1.gif" alt="umbweon"> </center>
-        <center><img src="umbreon2.gif" alt="umbweon"> </center> -->
+<!-- <center><img src="umbreon1.gif" alt="umbweon"> </center>
+<center><img src="umbreon2.gif" alt="umbweon"> </center> -->
 
-        <p> <center> hi its brandon! <a href="https://discordapp.com/users/299055310180450314">discord </a> -  <a href="https://ogusers.com/bran">ogu</a> </center></p>
+<p> <center> hi its brandon! <a href="https://discordapp.com/users/299055310180450314">discord </a> -  <a href="https://ogusers.com/bran">ogu</a> </center></p>
 
-    </div>
 
 </body>
 </html>
